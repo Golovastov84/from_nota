@@ -1,0 +1,65 @@
+body{
+	background-color:#F0FFFF;
+	color:#333333;
+	font:24px arial sans-serif;
+	width:1130px;
+	text-align:center;
+	border-width:1px;
+	}
+
+.nameTheCalculation{
+    background-color:#87CEEB;
+	font:30px arial sans-serif;
+	border-radius: 25px;
+	position:absolute;
+    left:50px;
+    top:5px;
+	text-align:center;
+	Color:#008000;
+	width:1130px;
+	height:80px;
+	float:left;
+	float:left;
+	}
+
+#choiceLogin{
+    display: flex;
+    height: 300px;
+}
+
+#choiceLogin, #registrationWindow{
+    background-color: #B0E0E6;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:100px;
+    left:500px;
+    width: 300px;
+}
+
+#choiceLoginForm > button, #registrationForm > button{
+    align-items: center;
+    border-radius: 5px;
+    font-size: 20px;
+    justify-content: center;
+    margin: 10px;
+    width: 180px;
+    height: 60px;
+    float:center;
+    clear:left;
+}
+
+#registrationForm > input{
+    float:center;
+    clear:both;
+    margin: 10px;
+    width: 220px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#registrationWindow{
+    display: none;
+    height: 620px;
+}
