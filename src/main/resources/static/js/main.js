@@ -3,12 +3,12 @@ $(function(){
 
     $('#enterId').click(function(){
                 var incomingText = document.getElementById('incomingTextId').value;
-                if(incomingText == ""){
+               /* if(incomingText == ""){
                             alert("Введите текст");
-                        } else {
+                        } else {*/
                             $.ajax({
                                 method: "POST",
-                                url: '/inTexts/',
+                                url: '/inTexts',
                                 data: incomingText,
                                 success: function(response){
                                     document.getElementById('calculationResultId').value = response;
@@ -16,7 +16,10 @@ $(function(){
                                         $('#registrationWindow').css({display: 'flex'});
                                 }
                             });
-                        }
+                       /* }
+
+                         $('#choiceLogin').css({display: 'none'});
+                         $('#registrationWindow').css({display: 'flex'});*/
         return false;
     });
 
